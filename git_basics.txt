@@ -1,0 +1,2 @@
+GIT BASICS
+This is a test GIT Basic page. Visit README.md to learn git basics :)
