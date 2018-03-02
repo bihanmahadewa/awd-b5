@@ -18,9 +18,9 @@
   $ git commit -am "Message"
 
 ## Open VI EditorTo Edit
-  	$ a or i
-To exit 
-  	$ :wq!
+  	$ a or i 
+## To Exit
+	$ :wq!
   
 ## Create new branch
 
@@ -58,7 +58,7 @@ To exit
 	$ git clone -b <branch name> <remote repo url> /local/location/
 
 
-##Fetch all branches in repo
+## Fetch all branches in repo
 
 	$ git fetch origin 
 
