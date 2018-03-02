@@ -1,9 +1,9 @@
 # awd-b5 Git Basics
 ## initialize git
-  $ git init
+  	$ git init
 
 ## Make a new file
-  $ touch <fileName>
+  	$ touch <fileName>
   
 ## Git status
 	$ git status
@@ -17,17 +17,16 @@
 
   $ git commit -am "Message"
 
-## Open VI Editor
-  To Edit
-  $ a or i
-  To exit 
-  $ :wq!
+## Open VI EditorTo Edit
+  	$ a or i
+To exit 
+  	$ :wq!
   
 ## Create new branch
 
 	$ git checkout -b <branch Name>
 
-  $ git status
+  	$ git status
 
 
 ## Check branches in local  repo
@@ -55,7 +54,7 @@
 
 	$ git clone <remote repo url> /local/location/
 
-Clone only one branch
+## Clone only one branch
 	$ git clone -b <branch name> <remote repo url> /local/location/
 
 
