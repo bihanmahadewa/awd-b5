@@ -1,0 +1,33 @@
+Text Editors
+
+ VI Editor
+
+  Enter to VI Editor
+    $ vi test.txt
+
+  To Type in VI Editor
+    Hit key 'i' or key 'a'
+
+  To disable typing
+    Hit esc
+
+  To delete a line
+    hit D key twice
+
+  To save and exit 
+    $ :wq!
+
+  To exit without saving 
+    $ :q!
+
+
+ Nano Editor
+
+  Enter into nano editor
+    $ nano test.txt
+
+  Save and Exit
+    $ Ctrl + X
+
+   To search for something
+    $ Ctrl + W
