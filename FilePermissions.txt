@@ -1,0 +1,41 @@
+Making a new User
+    $ sudo useradd -m newUser
+
+Give the user a password
+    $ sudo passwd newUser
+
+switch to new user 
+    $ su newUser
+
+Logout from user 
+    $ exit
+
+
+Changing file and directory permissions
+
+wrx wrx wrx
+g   u   o
+
+g - group owner 
+u - file owner
+o - other users
+a - all users
+
+In Numerical representation
+	w - 4
+	r - 2
+	x - 1
+
+
+Give directory b full permission for all users
+    $ sudo chmod -R 777 b 
+
+-R shows recursive. It declares that the permissions should be specifically applied to this folder
+and also for the contents inside it.
+
+sudo is super user or the root :)
+
+
+Give read permission for other users for a file direcotry
+    $ sudo chmod o+r a
+
