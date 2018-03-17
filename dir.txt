@@ -1,0 +1,7 @@
+total 8
+drwxrwxr-x 2 bihan bihan 4096 Mar 17 11:34 ./
+drwxr-xr-x 9 bihan bihan 4096 Mar 17 11:33 ../
+-rw-rw-r-- 1 bihan bihan    0 Mar 17 11:29 1.txt
+-rw-rw-r-- 1 bihan bihan    0 Mar 17 11:29 2.txt
+-rw-rw-r-- 1 bihan bihan    0 Mar 17 11:29 3.txt
+-rw-rw-r-- 1 bihan bihan    0 Mar 17 11:34 dir.txt
