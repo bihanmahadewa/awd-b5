@@ -299,4 +299,15 @@ for loops iterate through a set of values until the list is exhausted
         echo "You typed: $INPUT_STRING"
     done
     
+## If Statement   
+    a=10
+    b=10
+
+    if [ $a -eq $b ]
+    then
+        echo "$a and $b are equel;"
+    else 
+        echo "ERRRR"
+    fi  
+    
  Happy Coding :)
