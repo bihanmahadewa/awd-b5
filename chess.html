@@ -1,0 +1,22 @@
+
+<script>
+    var str =["(2,1)", "(4,2)", "(6,3)", "(8,4)", "(3,5)", "(1,6)", "(7,7)", "(5,8)"] ;
+    
+    var output = EightQueens(str);
+    alert(output);
+  
+
+    function EightQueens(strArr){
+        for(num in strArr){
+            var xCoord = strArr[num][1];
+            var yCoord = strArr[num][2];
+            
+            var array = strArr.slice(0,2);
+            
+            for(x in array){
+                return x;
+            }
+        }
+        return   null;
+    }
+</script>
