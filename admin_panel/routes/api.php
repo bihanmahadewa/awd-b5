@@ -18,3 +18,5 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('/users', 'User\UsersController@getUsers');
+
+Route::post('/users', 'User\UsersController@create');

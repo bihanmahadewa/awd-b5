@@ -5,6 +5,7 @@ namespace App\Http\Controllers\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\User;
+use Illuminate\Support\Facades\Validator;
 class UsersController extends Controller
 {
     //
@@ -34,6 +35,38 @@ class UsersController extends Controller
         $users = User::all(['name','id','email']);
 
         return response($users);
+    }
+
+    public function create(Request $request){
+        if(!$request->filled('name')){
+            return response()->json([
+                'status'=>'error',
+                'error'=>'Name is required'
+
+            ]);
+        }
+        if(!$request->filled('email')){
+            return response()->json([
+                'status'=>'error',
+                'error'=>'Email is required'
+
+            ]);
+        }
+        if(!$request->filled('password')){
+            return response()->json([
+                'status'=>'error',
+                'error'=>'Password is required'
+
+            ]);
+        }
+
+        $data = $request->all();
+        return User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => bcrypt($data['password']),
+        ]);
+        
     }
 
 
